@@ -4,27 +4,28 @@
   "version": "0.0.0",
   "packageManager": "pnpm@7.1.2",
   "description": "",
-  "keywords": [],
-  "homepage": "https://github.com/TickHeart/starter-ts#readme",
-  "bugs": {
-    "url": "https://github.com/TickHeart/starter-ts/issues"
-  },
-  "license": "MIT",
   "author": "TickHeart",
+  "license": "MIT",
+  "homepage": "https://github.com/TickHeart/starter-ts#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TickHeart/starter-ts"
   },
+  "bugs": {
+    "url": "https://github.com/TickHeart/starter-ts/issues"
+  },
+  "keywords": [],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "typesVersions": {
     "*": {
       "*": [
@@ -36,7 +37,6 @@
   "files": [
     "dist"
   ],
-  "sideEffects": false,
   "scripts": {
     "stub": "unbuild --stub",
     "build": "unbuild",
