@@ -1,19 +1,19 @@
 {
-  "name": "pkg-name",
+  "name": "starter-ts",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.1.2",
   "description": "",
   "keywords": [],
-  "homepage": "https://github.com/developer-plus/pkg-name#readme",
+  "homepage": "https://github.com/TickHeart/starter-ts#readme",
   "bugs": {
-    "url": "https://github.com/developer-plus/pkg-name/issues"
+    "url": "https://github.com/TickHeart/starter-ts/issues"
   },
   "license": "MIT",
-  "author": "developer-plus",
+  "author": "TickHeart",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/developer-plus/pkg-name.git"
+    "url": "git+https://github.com/TickHeart/starter-ts"
   },
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
