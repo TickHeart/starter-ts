@@ -2,7 +2,6 @@
 
 A ts starter by developer-plus.
 
-TickHeart
 
 ## LICENSE
 
