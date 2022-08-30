@@ -1,5 +1,6 @@
 describe('developer-plus', () => {
   it('happy path', () => {
-    expect(1).toBe(1)
+    const a = 1
+    expect(a).toBe(1)
   })
 })
